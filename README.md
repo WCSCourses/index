@@ -36,10 +36,5 @@
 
 [Working with Pathogen Genomes Latin America 2022](https://github.com/WCSCourses/WWPG_2022)
 
-### 2021
-
 [Helminth Bioinformatics Asia 2021](https://github.com/WCSCourses/Helminths_2021)
 
-### 2020 
-
-[London School of Hygiene and Tropical Medicine Parasite Genomics 2020](https://github.com/WCSCourses/LSHTM_ParasiteGenomics_2020)
