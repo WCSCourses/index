@@ -6,6 +6,8 @@
 
 ### 2023
 
+[Genomics and Epidemiological Surveillance of Bacterial Pathogens Paraguay 2023](https://github.com/WCSCourses/GenEpiLAC2023)
+
 [Next Generation Sequencing Bioinformatics Chile 2023](https://github.com/WCSCourses/NGS_Bio_Chile_23)
 
 [Antimicrobial Resistance in Bacterial Pathogens - Asia 2023](https://github.com/WCSCourses/AMR-Asia-23)
