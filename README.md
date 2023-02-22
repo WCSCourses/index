@@ -12,6 +12,8 @@
 
 [Antimicrobial Resistance in Bacterial Pathogens - Asia 2023](https://github.com/WCSCourses/AMR-Asia-23)
 
+[Next Generation Sequencing ] (https://github.com/WCSCourses/NGS23)
+
 ### 2022
 
 [Computational Systems Biology for Complex Human Disease ](https://github.com/WCSCourses/CompSysBio2022)
