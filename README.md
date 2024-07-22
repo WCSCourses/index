@@ -1,15 +1,29 @@
-<img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="300" height="50">
+# <img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="300" height="50"> Wellcome Connecting Science Course Index  
 
-# Wellcome Connecting Science Course Index
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) <br /> 
+[Wellcome Connecting Science Website](https://coursesandconferences.wellcomeconnectingscience.org/)
 
 ## The Course Repository Contents
 
 The below course repositories include the following:
 - Course materials including lecture notes, slides, and datasets.
 - Code examples and scripts for bioinformatics and genomic analyses.
-- Tutorials and practical exercises to complement the courses.
+- Tutorials and practical exercises to complement the courses. 
 
-## Licensing and Re-using Course Material 
+## Informatics Set-Up
+We are currently using Oracle VM Virtual Box (https://www.virtualbox.org/) to deliver Informatics, you can find Virtual Box Guides below:
+[Virtual Machine SetUp Guide for Mac and Windows](). <br />
+
+The Host OS Requirements for Virtual Box <br />
+- RAM requirement: 8GB (preferably 12GB) <br />
+- Processor requirement: 4 processors (preferably 8) <br />
+- Hard disk space: 200GB <br />
+- Admin rights to the computer <br />
+
+Note: Please be aware that Virtual Box is currently incompatible with M1/M2/M3 chips on MacBook.
+It is exclusively designed for use on Intel-based MacBooks. The current version in use is Virtual Box 7.0.
+
+## Citing and Re-using Course Material
 
 All content in this repository is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /> 
 The course data is free to reuse and adapt with appropriate attribution.
@@ -40,7 +54,7 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 
 | Course Date            | Course Title                                                                                                                                            | Location                    |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| 15–20 January 2023     | [Genomics and Clinical Microbiology](#)                                                                                                                  | Hinxton, Cambridge, UK      |
+| 15–20 January 2023     | [Genomics and Clinical Microbiology](https://coursesandconferences.wellcomeconnectingscience.org/event/genomics-and-clinical-microbiology-20230115/)                                                                                                                  | Hinxton, Cambridge, UK      |
 | 22–27 January 2023     | [Next Generation Sequencing Bioinformatics](https://github.com/WCSCourses/NGS_Bio_Chile_23)                                                                                                           | Santigo, Chile |
 | 19–24 February 2023    | [Antimicrobial Resistance in Bacterial Pathogens](https://github.com/WCSCourses/AMR-Asia-23)                                                                                                      | Mahidol University, Bangkok, Thailand   |
 | 24–31 March 2023       | [Next Generation Sequencing](https://github.com/WCSCourses/NGS23)                                                                                                                          | Hinxton, Cambridge, UK      |
