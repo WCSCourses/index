@@ -50,10 +50,10 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | 21–26 July 2024| [Genomics & Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpiLAC2024) | San José, Costa Rica |
 | 9–15 August 2024| [Single Cell Genomics](https://coursesandconferences.wellcomeconnectingscience.org/event/single-cell-genomics-latin-america-the-caribbean-20240809/) | INCA, Rio de Janeiro, Brazil |
 | 2–6 September 2024| [Genetic Analysis of Population-based Association Studies](https://coursesandconferences.wellcomeconnectingscience.org/event/genetic-analysis-of-population-based-association-studies-20240902/) | Wellcome Genome Campus, Hinxton, UK|
-| 31 August–6 September 2024| [Molecular & Genomic Approaches to Clinical Microbiology in Africa](https://coursesandconferences.wellcomeconnectingscience.org/event/genetic-analysis-of-population-based-association-studies-20240902/) | Stellenbosch University, South Africa |
+| 31 August–6 September 2024| [Molecular & Genomic Approaches to Clinical Microbiology in Africa](https://github.com/WCSCourses/MolAppAfrica_2024) | Stellenbosch University, South Africa |
 | 15–20 September 2024| [Integrated AMR: From Genomic Analysis to Clinical Application](https://coursesandconferences.wellcomeconnectingscience.org/event/integrated-amr-from-genomic-analysis-to-clinical-application-africa-asia-20240915/) | KEMRI-Wellcome Trust, Kilifi, Kenya|
-| 7–11 October 2024| [CRISPR genome engineering for cellular modelling and screening](https://coursesandconferences.wellcomeconnectingscience.org/event/crispr-genome-engineering-for-cellular-modelling-and-screening-2024-20241007/) | Wellcome Genome Campus, Hinxton, UK |
-| 3–8 November 2024| [Next Generation Sequencing Bioinformatics](https://coursesandconferences.wellcomeconnectingscience.org/event/next-generation-sequencing-bioinformatics-asia-20241103/) | Monash University, Malaysia and Genome Institute of Singapore|
+| 7–11 October 2024| [CRISPR genome engineering for cellular modelling and screening](https://github.com/WCSCourses/CRISPR_24) | Wellcome Genome Campus, Hinxton, UK |
+| 3–8 November 2024| [Next Generation Sequencing Bioinformatics](https://github.com/WCSCourses/NGS_24) | Monash University, Malaysia and Genome Institute of Singapore|
 | 9–11 November 2024| [Single Cell Genomic Approaches to Study the Immune System]() | Details Coming Soon!|
 
 ## 2023
