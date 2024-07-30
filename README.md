@@ -33,6 +33,17 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 
 ---
 
+## Course Landing Pages
+
+| Courses    | 
+|  :---:     |
+| [Polygenic Risk Scores](https://github.com/WCSCourses/Polygenic_Risk_Scores)| 
+| [Genomics to Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpi_Bacterial_Pathogen)| 
+| [Single Cell Genomics](https://github.com/WCSCourses/Single_Cell_Genomics)| 
+| [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies)| 
+| [Molecular Approaches to Clinical Microbiology](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology)| 
+| [CRISPR](https://github.com/WCSCourses/CRISPR)| 
+
 ## 2024
 
 | Course Date            | Course Title                                                                                                                                            | Location                    |
@@ -48,11 +59,11 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | 2–7 June 2024 | [Fungal Pathogen Genomics](https://github.com/WCSCourses/Fungal2024)  | Wellcome Genome Campus, Hinxton, UK |
 | 9–14 June 2024| [Polygenic Risk Score Analysis](https://github.com/WCSCourses/Polygenic_Risk_Scores) | ACE, Makerere University, Kampala, Uganda |
 | 21–26 July 2024| [Genomics & Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpiLAC2024) | San José, Costa Rica |
-| 9–15 August 2024| [Single Cell Genomics](https://coursesandconferences.wellcomeconnectingscience.org/event/single-cell-genomics-latin-america-the-caribbean-20240809/) | INCA, Rio de Janeiro, Brazil |
-| 2–6 September 2024| [Genetic Analysis of Population-based Association Studies](https://coursesandconferences.wellcomeconnectingscience.org/event/genetic-analysis-of-population-based-association-studies-20240902/) | Wellcome Genome Campus, Hinxton, UK|
+| 9–15 August 2024| [Single Cell Genomics](https://github.com/WCSCourses/Single_Cell_Genomics_2024) | INCA, Rio de Janeiro, Brazil |
+| 2–6 September 2024| [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies_2024/) | Wellcome Genome Campus, Hinxton, UK|
 | 31 August–6 September 2024| [Molecular & Genomic Approaches to Clinical Microbiology in Africa](https://github.com/WCSCourses/MolAppAfrica_2024) | Stellenbosch University, South Africa |
-| 15–20 September 2024| [Integrated AMR: From Genomic Analysis to Clinical Application](https://coursesandconferences.wellcomeconnectingscience.org/event/integrated-amr-from-genomic-analysis-to-clinical-application-africa-asia-20240915/) | KEMRI-Wellcome Trust, Kilifi, Kenya|
-| 7–11 October 2024| [CRISPR genome engineering for cellular modelling and screening](https://github.com/WCSCourses/CRISPR_24) | Wellcome Genome Campus, Hinxton, UK |
+| 15–20 September 2024| [Integrated AMR: From Genomic Analysis to Clinical Application](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology_2024) | KEMRI-Wellcome Trust, Kilifi, Kenya|
+| 7–11 October 2024| [CRISPR genome engineering for cellular modelling and screening](https://github.com/WCSCourses/CRISPR_Virtual_2024) | Wellcome Genome Campus, Hinxton, UK |
 | 3–8 November 2024| [Next Generation Sequencing Bioinformatics](https://github.com/WCSCourses/NGS_24) | Monash University, Malaysia and Genome Institute of Singapore|
 | 9–11 November 2024| [Single Cell Genomic Approaches to Study the Immune System]() | Details Coming Soon!|
 
