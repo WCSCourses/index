@@ -8,24 +8,16 @@
 The below course repositories include the following:
 - Course materials including lecture notes, slides, and datasets.
 - Code examples and scripts for bioinformatics and genomic analyses.
-- Tutorials and practical exercises to complement the courses. 
+- Tutorials and practical exercises to complement the courses.
 
-## Informatics Set-Up
-We are currently using Oracle VM Virtual Box (https://www.virtualbox.org/) to deliver Informatics, you can find Virtual Box Guides below:
-[Virtual Machine SetUp Guide for Intel-Mac and Windows](https://github.com/WCSCourses/index/blob/main/VM_Guide.md). <br />
+For courses that run frequently, dedicated course landing pages are created. These pages centralize all relevant materials and updates, making accessing the content easier for participants and educators.
 
-The Host OS Requirements for Virtual Box <br />
-- RAM requirement: 8GB (preferably 12GB) <br />
-- Processor requirement: 4 processors (preferably 8) <br />
-- Hard disk space: 200GB <br />
-- Admin rights to the computer <br />
-
-Note: Please be aware that Virtual Box is currently incompatible with M1/M2/M3 chips on MacBook.
-It is exclusively designed for use on Intel-based MacBooks. The current version in use is Virtual Box 7.0.
 
 ## Citing and Re-using Course Material
 
 The course data are free to reuse and adapt with appropriate attribution. All course data in these repositories are licensed under the <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /> 
+
+Each [course landing page](https://github.com/WCSCourses/index/edit/main/README.md#course-landing-pages) is assigned a DOI via Zenodo, providing a stable and citable reference. These DOIs can be found on the respective course landing pages and can be included in CVs or research publications, offering a professional record of the course contributions.
 
 ## Interested in attending a course?
 
@@ -43,6 +35,7 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies)| 
 | [Molecular Approaches to Clinical Microbiology](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology)| 
 | [CRISPR](https://github.com/WCSCourses/CRISPR)| 
+|[WCS ACORN - Bioinformatics for Antimicrobial Resistance](https://github.com/WCSCourses/WCS_ACORN_Clinical_AMR)|
 
 ## 2024
 
@@ -58,11 +51,11 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | 21 May–6 June 2024 | [WCS ACORN - Bioinformatics for Antimicrobial Resistance](WCSCourses/ACORN-ClinAMR)  | Virtual |
 | 2–7 June 2024 | [Fungal Pathogen Genomics](https://github.com/WCSCourses/Fungal2024)  | Wellcome Genome Campus, Hinxton, UK |
 | 9–14 June 2024| [Polygenic Risk Score Analysis](https://github.com/WCSCourses/Polygenic_Risk_Scores) | ACE, Makerere University, Kampala, Uganda |
-| 21–26 July 2024| [Genomics & Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpiLAC2024) | San José, Costa Rica |
-| 9–15 August 2024| [Single Cell Genomics](https://github.com/WCSCourses/Single_Cell_Genomics_2024) | INCA, Rio de Janeiro, Brazil |
-| 2–6 September 2024| [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies_2024/) | Wellcome Genome Campus, Hinxton, UK|
+| 21–26 July 2024| [Genomics & Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpi_Bacterial_Pathogen) | San José, Costa Rica |
+| 9–15 August 2024| [Single Cell Genomics](https://github.com/WCSCourses/Single_Cell_Genomics) | INCA, Rio de Janeiro, Brazil |
+| 2–6 September 2024| [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies) | Wellcome Genome Campus, Hinxton, UK|
 | 31 August–6 September 2024| [Molecular & Genomic Approaches to Clinical Microbiology in Africa](https://github.com/WCSCourses/MolAppAfrica_2024) | Stellenbosch University, South Africa |
-| 15–20 September 2024| [Integrated AMR: From Genomic Analysis to Clinical Application](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology_2024) | KEMRI-Wellcome Trust, Kilifi, Kenya|
+| 15–20 September 2024| [Integrated AMR: From Genomic Analysis to Clinical Application](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology) | KEMRI-Wellcome Trust, Kilifi, Kenya|
 | 7–11 October 2024| [CRISPR genome engineering for cellular modelling and screening](https://github.com/WCSCourses/CRISPR_Virtual_2024) | Wellcome Genome Campus, Hinxton, UK |
 | 3–8 November 2024| [Next Generation Sequencing Bioinformatics](https://github.com/WCSCourses/NGS_24) | Monash University, Malaysia and Genome Institute of Singapore|
 | 9–11 November 2024| [Single Cell Genomic Approaches to Study the Immune System]() | Details Coming Soon!|
