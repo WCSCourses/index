@@ -59,7 +59,7 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | 15–20 September 2024| [Integrated AMR: From Genomic Analysis to Clinical Application](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology) | KEMRI-Wellcome Trust, Kilifi, Kenya|
 | 7–11 October 2024| [CRISPR genome engineering for cellular modelling and screening](https://github.com/WCSCourses/CRISPR_Virtual_2024) | Wellcome Genome Campus, Hinxton, UK |
 | 3–8 November 2024| [Next Generation Sequencing Bioinformatics](https://github.com/WCSCourses/NGS_24) | Monash University, Malaysia and Genome Institute of Singapore|
-| 9–11 November 2024| [Single Cell Genomic Approaches to Study the Immune System]() | Details Coming Soon!|
+| 9–11 November 2024| [Single Cell Genomic Approaches to Study the Immune System](https://coursesandconferences.wellcomeconnectingscience.org/event/single-cell-genomic-approaches-to-study-the-immune-system-latin-america-the-caribbean-20241109/) | Universidad CES, Medellín, Colombia|
 
 ## 2023
 
