@@ -26,15 +26,17 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 
 ## Course Landing Pages
 
-| Courses    | 
-|  :---:     |
-| [Polygenic Risk Scores](https://github.com/WCSCourses/Polygenic_Risk_Scores)| 
-| [Genomics to Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpi_Bacterial_Pathogen)| 
-| [Single Cell Genomics](https://github.com/WCSCourses/Single_Cell_Genomics)| 
-| [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies)| 
-| [Molecular Approaches to Clinical Microbiology](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology)| 
-| [CRISPR](https://github.com/WCSCourses/CRISPR)| 
-|[WCS ACORN - Bioinformatics for Antimicrobial Resistance](https://github.com/WCSCourses/WCS_ACORN_Clinical_AMR)|
+| Courses    | DOI to cite all course iterations    | 
+|  :---    |  :---:     |
+| [Polygenic Risk Scores](https://github.com/WCSCourses/Polygenic_Risk_Scores)| [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12667214.svg)](https://doi.org/10.5281/zenodo.12667214)|
+| [Genomics to Epidemiological Surveillance of Bacterial Pathogens](https://github.com/WCSCourses/GenEpi_Bacterial_Pathogen)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12806771.svg)](https://doi.org/10.5281/zenodo.12806771)|
+| [Single Cell Genomics](https://github.com/WCSCourses/Single_Cell_Genomics)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12952708.svg)](https://doi.org/10.5281/zenodo.12952708)|
+| [Genetic Analysis of Population-based Association Studies](https://github.com/WCSCourses/Association_Studies)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13122520.svg)](https://doi.org/10.5281/zenodo.13122520)|
+| [Molecular Approaches to Clinical Microbiology](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13132761.svg)](https://doi.org/10.5281/zenodo.13132761)|
+|[WCS ACORN - Bioinformatics for Antimicrobial Resistance](https://github.com/WCSCourses/WCS_ACORN_Clinical_AMR)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12805690.svg)](https://doi.org/10.5281/zenodo.12805690)|
+|[Next Generation Sequening Bioinformatics](https://github.com/WCSCourses/NGS_Bioinformatics)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13322279.svg)](https://doi.org/10.5281/zenodo.13322279)|
+| [CRISPR](https://github.com/WCSCourses/CRISPR)|Coming soon..|
+
 
 ## 2024
 
