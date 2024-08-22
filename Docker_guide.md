@@ -23,7 +23,6 @@
   - [5. Install Docker](#5-install-docker)
   - [6. Verify Installation](#6-verify-installation)
   - [7. Run a Test Container](#7-run-a-test-container)
-- [Conclusion](#conclusion)
 
 ## Introduction
 Docker is a platform that allows you to develop, ship, and run applications inside containers. Containers are lightweight and executable packages of software that include everything needed to run an application: code, runtime, system tools, libraries, and settings. This guide will walk you through the installation process of Docker on macOS, Windows, and Linux.
@@ -54,3 +53,89 @@ Before installing Docker, ensure your system meets the following requirements:
 - Open a terminal and run the command:
   ```bash
   docker --version
+    ```
+
+---
+
+## Docker Installation on Windows
+
+### 1. Download Docker Desktop
+- Visit the [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop) download page.
+- Click on the "Download for Windows" button.
+
+![Download Docker Desktop for Windows](https://example.com/path-to-image/windows-download.png)
+
+### 2. Install Docker Desktop
+- Run the installer and follow the on-screen instructions.
+- Make sure to enable the option to use WSL 2 (Windows Subsystem for Linux) during the installation process.
+
+![Docker Desktop Installation](https://example.com/path-to-image/install-docker.png)
+
+### 3. Verify Installation
+- Open Command Prompt or PowerShell and run:
+    ```bash
+    docker --version
+    ```
+- This should return the version of Docker installed.
+
+### 4. Run a Test Container
+- To verify Docker is working correctly, run:
+    ```bash
+    docker run hello-world
+    ```
+- This command downloads and runs a simple container that outputs a confirmation message.
+
+### 5. Run a Test Container
+- Run the following command to ensure Docker is functioning:
+    ```bash
+    sudo docker run hello-world
+    ```
+
+---
+
+## Docker Installation on Linux
+
+### 1. Update Your Package Database
+- Open a terminal and run:
+    ```bash
+    sudo apt-get update
+    ```
+
+### 2. Install Prerequisites
+- Install necessary packages to allow apt to use a repository over HTTPS:
+    ```bash
+    sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+    ```
+
+### 3. Add Docker’s GPG Key
+- Add Docker’s official GPG key:
+    ```bash
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    ```
+
+### 4. Set Up the Stable Repository
+- Use the following command to set up the stable repository:
+    ```bash
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    ```
+
+### 5. Install Docker
+- Update the package database and install Docker:
+    ```bash
+    sudo apt-get update
+    sudo apt-get install docker-ce docker-ce-cli containerd.io
+    ```
+
+### 6. Verify Installation
+- Check if Docker is installed correctly:
+    ```bash
+    docker --version
+    ```
+
+### 7. Run a Test Container
+- Run the following command to ensure Docker is functioning:
+    ```bash
+    sudo docker run hello-world
+    ```
+
+---
