@@ -81,12 +81,6 @@ Before installing Docker, ensure your system meets the following requirements:
     ```
 - This command downloads and runs a simple container that outputs a confirmation message.
 
-### 5. Run a Test Container
-- Run the following command to ensure Docker is functioning:
-    ```bash
-    sudo docker run hello-world
-    ```
-
 ---
 
 ## Docker Installation on Linux
