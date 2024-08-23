@@ -63,13 +63,9 @@ Before installing Docker, ensure your system meets the following requirements:
 - Visit the [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop) download page.
 - Click on the "Download for Windows" button.
 
-![Download Docker Desktop for Windows](https://example.com/path-to-image/windows-download.png)
-
 ### 2. Install Docker Desktop
 - Run the installer and follow the on-screen instructions.
 - Make sure to enable the option to use WSL 2 (Windows Subsystem for Linux) during the installation process.
-
-![Docker Desktop Installation](https://example.com/path-to-image/install-docker.png)
 
 ### 3. Verify Installation
 - Open Command Prompt or PowerShell and run:
