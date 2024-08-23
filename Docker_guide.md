@@ -8,21 +8,21 @@
   - [2. Install Docker Desktop](#2-install-docker-desktop)
   - [3. Start Docker](#3-start-docker)
   - [4. Verify Installation](#4-verify-installation)
-  - [5. Run a Test Container](#5-run-a-test-container)
 - [Docker Installation on Windows](#docker-installation-on-windows)
   - [1. Download Docker Desktop](#1-download-docker-desktop-1)
   - [2. Install Docker Desktop](#2-install-docker-desktop-1)
-  - [3. Start Docker](#3-start-docker-1)
-  - [4. Verify Installation](#4-verify-installation-1)
-  - [5. Run a Test Container](#5-run-a-test-container-1)
+  - [3. Verify Installation](#3-verify-installation)
+  - [4. Run a Test Container](#4-run-a-test-container)
 - [Docker Installation on Linux](#docker-installation-on-linux)
   - [1. Update Your Package Database](#1-update-your-package-database)
   - [2. Install Prerequisites](#2-install-prerequisites)
   - [3. Add Docker’s GPG Key](#3-add-dockers-gpg-key)
   - [4. Set Up the Stable Repository](#4-set-up-the-stable-repository)
   - [5. Install Docker](#5-install-docker)
-  - [6. Verify Installation](#6-verify-installation)
-  - [7. Run a Test Container](#7-run-a-test-container)
+  - [6. Add Your User to the Docker Group (Optional but Recommended)](#6-add-your-user-to-the-docker-group-optional-but-recommended)
+  - [7. Verify Installation](#7-verify-installation)
+  - [8. Run a Test Container](#8-run-a-test-container)
+- [Additional Resources](#additional-resources)
 
 ## Introduction
 Docker is a platform that allows you to develop, ship, and run applications inside containers. Containers are lightweight and executable packages of software that include everything needed to run an application: code, runtime, system tools, libraries, and settings. This guide will walk you through the installation process of Docker on macOS, Windows, and Linux.
@@ -116,16 +116,48 @@ Before installing Docker, ensure your system meets the following requirements:
     sudo apt-get install docker-ce docker-ce-cli containerd.io
     ```
 
-### 6. Verify Installation
+### 6. Add Your User to the Docker Group (Optional but Recommended)
+- To avoid using `sudo` for Docker commands, add your user to the `docker` group:
+    ```bash
+    sudo usermod -aG docker $USER
+    ```
+- After running this command, log out and back in, or restart your system to apply the group changes.
+
+### 7. Verify Installation
 - Check if Docker is installed correctly:
     ```bash
     docker --version
     ```
 
-### 7. Run a Test Container
+### 8. Run a Test Container
 - Run the following command to ensure Docker is functioning:
     ```bash
-    sudo docker run hello-world
+    docker run hello-world
     ```
-
 ---
+
+### Additional Resources
+
+- **Docker Documentation**: Comprehensive guide and reference for Docker installation, configuration, and usage.
+  - [Docker Official Documentation](https://docs.docker.com/)
+
+- **Docker Hub**: A cloud-based registry service that allows you to link code repositories, build images, and test them.
+  - [Docker Hub](https://hub.docker.com/)
+
+- **Linux Post-Installation Steps**: Instructions on how to manage Docker as a non-root user, including adding users to the Docker group.
+  - [Post-Installation Steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
+
+- **Docker Compose**: A tool for defining and running multi-container Docker applications. Great for orchestrating multiple containers for a course.
+  - [Docker Compose Documentation](https://docs.docker.com/compose/)
+
+- **Globus File Transfer**: Research-oriented file transfer service that can be used to share large datasets.
+  - [Globus](https://www.globus.org/)
+
+- **VirtualBox Documentation**: Official documentation for using VirtualBox, useful for comparison or as an alternative.
+  - [VirtualBox Documentation](https://www.virtualbox.org/wiki/Documentation)
+
+- **Linux Commands Cheat Sheet**: A handy reference for common Linux commands, useful for working within Docker containers.
+  - [Linux Command Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)
+
+- **GitHub**: A platform for hosting and collaborating on code, ideal for sharing course materials and Dockerfiles.
+  - [GitHub Documentation](https://docs.github.com/)
