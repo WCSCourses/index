@@ -36,6 +36,9 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 |[WCS ACORN - Bioinformatics for Antimicrobial Resistance](https://github.com/WCSCourses/WCS_ACORN_Clinical_AMR)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12805690.svg)](https://doi.org/10.5281/zenodo.12805690)|
 |[Next Generation Sequening Bioinformatics](https://github.com/WCSCourses/NGS_Bioinformatics)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13322279.svg)](https://doi.org/10.5281/zenodo.13322279)|
 | [CRISPR](https://github.com/WCSCourses/CRISPR)|Coming soon..|
+| [Genomics and Clinical Microbiology](https://github.com/WCSCourses/Genomics_and_Clinical_Microbiology)|Coming soon..|
+| [Genomics and Clinical Virology](https://github.com/WCSCourses/Genomics_and_Clinical_Virology)|Coming soon..|
+| [Antimicrobial Resistance in Bacterial Pathogens](https://github.com/WCSCourses/AMR_Bacterial_Pathogens)|Coming soon..|
 
 
 ## 2024
