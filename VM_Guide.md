@@ -118,7 +118,7 @@ This information will guide you on the compatibility of VirtualBox with your sys
 1. **Download VirtualBox:**
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version compatible with macOS.
    
-   ![Download VirtualBox for macOS](https://github.com/WCSCourses/index/blob/main/VM_guide_images/2_1.png)
+   ![Download VirtualBox for macOS](https://github.com/WCSCourses/index/blob/main/VM_guide_images/macdownload.png)
    
 
 3. **Download Extension Pack (Optional):**
