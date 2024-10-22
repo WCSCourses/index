@@ -5,7 +5,7 @@
 # Table of Contents
 
 - [Introduction to Virtual Box and Virtual Machine](#introduction-to-virtual-box-and-virtual-machine)
-- [Host OS Requirements for Virtual Box](#host-os-requirements-for-virtual-box)
+- [Host Operating System (OS) Requirements for Virtual Box](https://github.com/WCSCourses/index/edit/main/VM_Guide.md#host-operating-system-os-requirements-for-virtual-box)
 - [Installation of Virtual Box for Windows OS](#installation-of-virtual-box-for-windows-os)
 - [Installation of Virtual Box for MacOS](#installation-of-virtual-box-for-macos)
 - [Globus VM Downloading Steps](#globus-vm-downloading-steps)
@@ -16,11 +16,29 @@
 
 ## Introduction to Virtual Box and Virtual Machine
 
-Virtual Box is a cross-platform application developed by Oracle which enables you to create Virtual Machines (VMs). The VM generates a guest operating system (such as Linux) derived from a host operating system. Therefore, sufficient RAM, processors, and memory in the host operating system are essential for smooth running of VMs.
+### Concept of VirtualBox and How It Works
+
+VirtualBox is a powerful open-source virtualization software that enables users to run multiple operating systems on a single physical machine. This concept of virtualization allows users to create a virtual environment, or Virtual Machine (VM), that emulates the hardware of a computer, enabling the installation of guest operating systems like Linux or Windows alongside the host operating system.
+
+### How VirtualBox Works
+
+1. **Virtualization Layer**: VirtualBox operates as a virtualization layer between the host operating system and the guest operating systems. It abstracts the hardware resources of the physical machine, allowing the VM to use the host’s CPU, memory, storage, and other peripherals without interference.
+
+2. **Guest OS Installation**: When you create a VM in VirtualBox, you allocate specific resources (such as CPU cores, RAM, and storage) to that VM. You can then install a guest operating system as you would on a physical machine. This guest OS thinks it's running on its dedicated hardware, while in reality, it's sharing the host's resources.
+
+3. **Resource Allocation**: VirtualBox allows for dynamic allocation of resources. For example, you can set the amount of RAM or number of CPU cores a VM can utilize. This flexibility helps optimize the performance of both the host and guest operating systems.
+
+4. **Isolation**: Each VM operates in its isolated environment. Changes made within a VM do not affect the host OS or other VMs running on the same machine. This isolation is beneficial for testing software, running applications in different environments, or experimenting with new configurations without risking the stability of the host system.
+
+5. **Snapshots and Cloning**: VirtualBox supports features like snapshots, which allow you to save the state of a VM at a specific point in time. This is useful for testing and development, as you can revert to a previous state if something goes wrong. Cloning allows you to create a copy of a VM for further experimentation.
+
+6. **Networking**: VirtualBox provides various networking options, enabling VMs to communicate with the host, other VMs, or external networks. You can set up different network modes, such as NAT, bridged, or host-only, depending on your needs.
+
+Overall, VirtualBox offers a flexible and efficient way to run multiple operating systems on a single machine, making it an invaluable tool for developers, testers, and anyone who needs to use different environments.
 
 **Note:** The VM image file (.vdi) contains all the software installed for the course.
 
-## Host OS Requirements for Virtual Box
+## Host Operating System (OS) Requirements for Virtual Box
 
 - RAM requirement: 8GB (preferably 12GB)
 - Processor requirement: 4 processors (preferably 8)
@@ -67,7 +85,7 @@ By ensuring that the Visual C++ 2019 Redistributable Package is installed, you c
 1. **Download VirtualBox:**
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version that matches your Windows operating system (32-bit or 64-bit).
    
-   ![Download VirtualBox](VM_guide_images/1_1.png)
+   ![Download VirtualBox](https://github.com/WCSCourses/index/blob/main/VM_guide_images/1_1.png)
 
 2. **Download Extension Pack (Optional):**
    If needed, download the VirtualBox Extension Pack from the same "Downloads" section. This pack provides additional functionalities like USB 2.0 and 3.0 support, VirtualBox Remote Desktop Protocol (VRDP), and more.
@@ -100,8 +118,9 @@ This information will guide you on the compatibility of VirtualBox with your sys
 1. **Download VirtualBox:**
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version compatible with macOS.
    
-   ![Download VirtualBox for macOS](VM_guide_images/2_2.png)
-   ![Download VirtualBox for macOS](VM_guide_images/2_2.png)
+   ![Download VirtualBox for macOS](https://github.com/WCSCourses/index/blob/main/VM_guide_images/2_1.png)
+ 
+   ![Download VirtualBox for macOS](https://github.com/WCSCourses/index/blob/main/VM_guide_images/2_2.png)
 
 3. **Download Extension Pack (Optional):**
    If needed, download the VirtualBox Extension Pack from the same "Downloads" section. This pack provides additional functionalities like USB 2.0 and 3.0 support, VirtualBox Remote Desktop Protocol (VRDP), and more.
