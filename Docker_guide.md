@@ -1,4 +1,7 @@
-# Docker Installation Guide for macOS, Windows, and Linux
+# Docker Installation Guide for MacOS, Windows, and Linux
+
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) <br /> 
+[Wellcome Connecting Science Website](https://coursesandconferences.wellcomeconnectingscience.org/)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -161,3 +164,12 @@ Before installing Docker, ensure your system meets the following requirements:
 
 - **GitHub**: A platform for hosting and collaborating on code, ideal for sharing course materials and Dockerfiles.
   - [GitHub Documentation](https://docs.github.com/)
+
+---
+
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) 
+
+For more information or queries, feel free to contact us via the [Wellcome Connecting Science website](https://coursesandconferences.wellcomeconnectingscience.org).<br /> 
+Find us on socials [Wellcome Connecting Science Linktr](https://linktr.ee/eventswcs)
+
+---
