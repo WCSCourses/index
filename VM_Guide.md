@@ -1,6 +1,9 @@
 <img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="300" height="50"> 
 
-# ORACLE VM VIRTUAL BOX Guide
+# ORACLE VM VIRTUAL BOX Installation Guide
+
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) <br /> 
+[Wellcome Connecting Science Website](https://coursesandconferences.wellcomeconnectingscience.org/)
 
 # Table of Contents
 
@@ -329,3 +332,12 @@ Adjusting the screen size in an Ubuntu virtual machine (VM) within VirtualBox in
 - **Ubuntu Community Support:** [https://ubuntu.com/support/community-support](https://ubuntu.com/support/community-support)
 - **Stack Overflow:** [https://stackoverflow.com/](https://stackoverflow.com/) (Public Q&A platform for debugging)
 - **Bioinformatics (BioStars) Forum:** [https://www.biostars.org/t/Forum/](https://www.biostars.org/t/Forum/) (General Bioinformatics queries)
+
+---
+
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) 
+
+For more information or queries, feel free to contact us via the [Wellcome Connecting Science website](https://coursesandconferences.wellcomeconnectingscience.org).<br /> 
+Find us on socials [Wellcome Connecting Science Linktr](https://linktr.ee/eventswcs)
+
+---
