@@ -2,8 +2,6 @@
 
 # ORACLE VM VIRTUAL BOX Guide
 
-VM Installation Guide for Windows and Intel-Mac OS
-
 # Table of Contents
 
 - [Introduction to Virtual Box and Virtual Machine](#introduction-to-virtual-box-and-virtual-machine)
@@ -29,9 +27,42 @@ Virtual Box is a cross-platform application developed by Oracle which enables yo
 - Hard disk space: 200GB
 - Admin rights to the computer.
 
-**Note:** Please be aware that Virtual Box is currently incompatible with M1/M2/M3 chips on MacBook. It is exclusively designed for use on Intel-based MacBooks. The current version in use is Virtual Box 7.0.
+**Note:** Before installing VirtualBox, ensure that the Microsoft Visual C++ 2019 Redistributable Package is installed on your Windows computer. Some applications, including VirtualBox, require this package to function correctly.
 
 ## Installation of Virtual Box for Windows OS
+
+### Installing Microsoft Visual C++ 2019 Redistributable Package (if needed)
+
+1. **Download the Package:**
+   - Visit the official Microsoft download page for the Visual C++ Redistributable: [Download Visual C++ Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
+   - Scroll down to the **"Visual Studio 2019"** section and choose the appropriate version for your system.
+
+2. **Choose the Right Version:**
+   - **x86:** For 32-bit operating systems or if you need a 32-bit application on a 64-bit OS.
+   - **x64:** For 64-bit operating systems and applications.
+
+3. **Run the Installer:**
+   - Locate the downloaded installer file (named like `vc_redist.x64.exe` or `vc_redist.x86.exe`).
+   - Double-click the installer to run it.
+
+4. **Accept the License Agreement:**
+   - Read and accept the license terms, then click on **"Install."**
+
+5. **Complete the Installation:**
+   - Wait for the installation to finish, then click **"Close."**
+
+6. **Restart Your Computer (If Necessary):**
+   - If prompted, restart your computer to apply the changes.
+
+### Verification
+
+To verify that the Visual C++ 2019 Redistributable is installed:
+- Open **Control Panel** > **Programs** > **Programs and Features**.
+- Look for "Microsoft Visual C++ 2019 Redistributable" in the list.
+
+By ensuring that the Visual C++ 2019 Redistributable Package is installed, you can help prevent compatibility issues with applications that rely on these runtime components.
+
+### Steps on Downloading VirtualBox
 
 1. **Download VirtualBox:**
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version that matches your Windows operating system (32-bit or 64-bit).
@@ -52,21 +83,36 @@ Virtual Box is a cross-platform application developed by Oracle which enables yo
 
 ## Installation of Virtual Box for MacOS
 
+###  Check if Your Mac is Intel or ARM-based
+
+To check whether your Mac uses an Intel chip or an ARM-based (M1/M2/M3) chip:
+
+1. **Click on the Apple logo** in the top-left corner of your screen.
+2. Select **"About This Mac."**
+3. In the **"Overview"** tab, look for the **Processor** section:
+   - If it says **Intel**, your Mac uses an Intel processor.
+   - If it mentions **Apple Silicon**, your Mac uses an ARM-based chip (M1/M2/M3).
+
+This information will guide you on the compatibility of VirtualBox with your system.
+
+### Steps on Downloading VirtualBox
+
 1. **Download VirtualBox:**
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version compatible with macOS.
    
-   ![Download VirtualBox for macOS](VM_guide_images/1_2.png)
+   ![Download VirtualBox for macOS](VM_guide_images/2_2.png)
+   ![Download VirtualBox for macOS](VM_guide_images/2_2.png)
 
-2. **Download Extension Pack (Optional):**
+3. **Download Extension Pack (Optional):**
    If needed, download the VirtualBox Extension Pack from the same "Downloads" section. This pack provides additional functionalities like USB 2.0 and 3.0 support, VirtualBox Remote Desktop Protocol (VRDP), and more.
 
-3. **Run the Installer:**
+4. **Run the Installer:**
    Locate the downloaded VirtualBox installer file (.dmg) and double-click to open it. Follow the on-screen instructions to install VirtualBox on your macOS. Drag the VirtualBox icon to the Applications folder.
 
-4. **Install Extension Pack (Optional):**
+5. **Install Extension Pack (Optional):**
    If you downloaded the Extension Pack, double-click on the file (e.g., Oracle_VM_VirtualBox_Extension_Pack-6.0.14-133895.vbox-extpack) to install it. This can be done after VirtualBox installation.
 
-5. **Complete the Installation:**
+6. **Complete the Installation:**
    Once installed, open VirtualBox from Applications folder. The first time you run it, macOS may ask for permission to run the application. Click “Open” to proceed.
 
 ## Downloading Virtual Machine (VM) Image via Globus
