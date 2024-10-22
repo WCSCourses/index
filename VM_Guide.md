@@ -85,7 +85,7 @@ By ensuring that the Visual C++ 2019 Redistributable Package is installed, you c
 1. **Download VirtualBox:**
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version that matches your Windows operating system (32-bit or 64-bit).
    
-   ![Download VirtualBox](https://github.com/WCSCourses/index/blob/main/VM_guide_images/1_1.png)
+   ![Download VirtualBox](VM_guide_images/windowsdownload.png)
 
 2. **Download Extension Pack (Optional):**
    If needed, download the VirtualBox Extension Pack from the same "Downloads" section. This pack provides additional functionalities like USB 2.0 and 3.0 support, VirtualBox Remote Desktop Protocol (VRDP), and more.
@@ -119,8 +119,7 @@ This information will guide you on the compatibility of VirtualBox with your sys
    Navigate to the official [VirtualBox website](https://www.virtualbox.org/) and go to the "Downloads" section. Choose the version compatible with macOS.
    
    ![Download VirtualBox for macOS](https://github.com/WCSCourses/index/blob/main/VM_guide_images/2_1.png)
- 
-   ![Download VirtualBox for macOS](https://github.com/WCSCourses/index/blob/main/VM_guide_images/2_2.png)
+   
 
 3. **Download Extension Pack (Optional):**
    If needed, download the VirtualBox Extension Pack from the same "Downloads" section. This pack provides additional functionalities like USB 2.0 and 3.0 support, VirtualBox Remote Desktop Protocol (VRDP), and more.
