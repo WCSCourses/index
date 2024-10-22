@@ -1,4 +1,7 @@
-# Colab, Conda, and Terminal Guide
+# Google Colab Guide
+
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) <br /> 
+[Wellcome Connecting Science Website](https://coursesandconferences.wellcomeconnectingscience.org/)
 
 ## Table of Contents:
 1. [What is Google Colab?](#what-is-google-colab)
@@ -163,3 +166,11 @@ Feel free to reach out if you have any questions or need further assistance!
 
 Join these communities to connect with others, get support, and share your experiences with Colab.
 
+---
+
+[Wellcome Connecting Science GitHub Home Page](https://github.com/WCSCourses) 
+
+For more information or queries, feel free to contact us via the [Wellcome Connecting Science website](https://coursesandconferences.wellcomeconnectingscience.org).<br /> 
+Find us on socials [Wellcome Connecting Science Linktr](https://linktr.ee/eventswcs)
+
+---
