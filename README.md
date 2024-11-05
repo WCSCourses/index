@@ -39,6 +39,7 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | [Genomics and Clinical Microbiology](https://github.com/WCSCourses/Genomics_and_Clinical_Microbiology)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380376.svg)](https://doi.org/10.5281/zenodo.13380376)|
 | [Genomics and Clinical Virology](https://github.com/WCSCourses/Genomics_and_Clinical_Virology)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380505.svg)](https://doi.org/10.5281/zenodo.13380505)|
 | [Antimicrobial Resistance in Bacterial Pathogens](https://github.com/WCSCourses/AMR_Bacterial_Pathogens)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380683.svg)](https://doi.org/10.5281/zenodo.13380683)|
+| [Computational Systems Biology for Complex Human Disease](https://github.com/WCSCourses/Comp_Sys_Bio)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14038009.svg)](https://doi.org/10.5281/zenodo.140380009)|
 
 
 ## 2024
