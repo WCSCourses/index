@@ -35,7 +35,7 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | [Molecular Approaches to Clinical Microbiology](https://github.com/WCSCourses/Molecular_Approaches_Clinical_Microbiology)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13132761.svg)](https://doi.org/10.5281/zenodo.13132761)|
 |[WCS ACORN - Bioinformatics for Antimicrobial Resistance](https://github.com/WCSCourses/WCS_ACORN_Clinical_AMR)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12805690.svg)](https://doi.org/10.5281/zenodo.12805690)|
 |[Next Generation Sequening Bioinformatics](https://github.com/WCSCourses/NGS_Bioinformatics)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13322279.svg)](https://doi.org/10.5281/zenodo.13322279)|
-| [CRISPR](https://github.com/WCSCourses/CRISPR)|Coming soon..|
+| [CRISPR](https://github.com/WCSCourses/CRISPR)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14053976.svg)](https://doi.org/10.5281/zenodo.14053976)|
 | [Genomics and Clinical Microbiology](https://github.com/WCSCourses/Genomics_and_Clinical_Microbiology)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380376.svg)](https://doi.org/10.5281/zenodo.13380376)|
 | [Genomics and Clinical Virology](https://github.com/WCSCourses/Genomics_and_Clinical_Virology)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380505.svg)](https://doi.org/10.5281/zenodo.13380505)|
 | [Antimicrobial Resistance in Bacterial Pathogens](https://github.com/WCSCourses/AMR_Bacterial_Pathogens)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380683.svg)](https://doi.org/10.5281/zenodo.13380683)|
