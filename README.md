@@ -43,6 +43,7 @@ Take a look what courses are coming up at [Wellcome Connecting Science Courses &
 | [Low Input Epigenomics](https://github.com/WCSCourses/Low_Input_Epigenomics)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14038060.svg)](https://doi.org/10.5281/zenodo.14038060)|
 | [Viral Genomics and Bioinfromatics](https://github.com/WCSCourses/Viral_Genomics_and_Bioinfo)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14038519.svg)](https://doi.org/10.5281/zenodo.14038519)|
 | [Fungal Pathogen Genomics](https://github.com/WCSCourses/Fungal_Pathogen_Genomics)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14038716.svg)](https://doi.org/10.5281/zenodo.14038716)|
+| [Cancer Genome Analysis](https://github.com/WCSCourses/Cancer_Genome_Analysis)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14593499.svg)](https://doi.org/10.5281/zenodo.14593499)|
 
 
 ## 2024
