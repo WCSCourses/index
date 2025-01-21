@@ -141,29 +141,19 @@ Before installing Docker, ensure your system meets the following requirements:
 
 ### Additional Resources
 
-- **Docker Documentation**: Comprehensive guide and reference for Docker installation, configuration, and usage.
-  - [Docker Official Documentation](https://docs.docker.com/)
+- **[Docker Official Documentation](https://docs.docker.com/)**: Comprehensive guide and reference for Docker installation, configuration, and usage.
 
-- **Docker Hub**: A cloud-based registry service that allows you to link code repositories, build images, and test them.
-  - [Docker Hub](https://hub.docker.com/)
+- **[Docker Hub](https://hub.docker.com/)**: A cloud-based registry service that allows you to link code repositories, build images, and test them.
 
-- **Linux Post-Installation Steps**: Instructions on how to manage Docker as a non-root user, including adding users to the Docker group.
-  - [Post-Installation Steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
+- **[Post-Installation Steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)**: Instructions on how to manage Docker as a non-root user, including adding users to the Docker group.
 
-- **Docker Compose**: A tool for defining and running multi-container Docker applications. Great for orchestrating multiple containers for a course.
-  - [Docker Compose Documentation](https://docs.docker.com/compose/)
+- **[Docker Compose Documentation](https://docs.docker.com/compose/)**: A tool for defining and running multi-container Docker applications. Great for orchestrating multiple containers for a course.
 
-- **Globus File Transfer**: Research-oriented file transfer service that can be used to share large datasets.
-  - [Globus](https://www.globus.org/)
+- **[Globus](https://www.globus.org/)**: Research-oriented file transfer service that can be used to share large datasets. 
 
-- **VirtualBox Documentation**: Official documentation for using VirtualBox, useful for comparison or as an alternative.
-  - [VirtualBox Documentation](https://www.virtualbox.org/wiki/Documentation)
-
-- **Linux Commands Cheat Sheet**: A handy reference for common Linux commands, useful for working within Docker containers.
-  - [Linux Command Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)
-
-- **GitHub**: A platform for hosting and collaborating on code, ideal for sharing course materials and Dockerfiles.
-  - [GitHub Documentation](https://docs.github.com/)
+- **[VirtualBox Documentation](https://www.virtualbox.org/wiki/Documentation)**: Official documentation for using VirtualBox, useful for comparison or as an alternative.
+- **[Linux Command Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)**: A handy reference for common Linux commands, useful for working within Docker containers.
+- **[GitHub Documentation](https://docs.github.com/)**: A platform for hosting and collaborating on code, ideal for sharing course materials and Dockerfiles.
 
 ---
 
