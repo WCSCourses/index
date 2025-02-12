@@ -25,6 +25,21 @@
   - [6. Add Your User to the Docker Group (Optional but Recommended)](#6-add-your-user-to-the-docker-group-optional-but-recommended)
   - [7. Verify Installation](#7-verify-installation)
   - [8. Run a Test Container](#8-run-a-test-container)
+-  [Downloading Docker Image/File via Globus](#downloading-docker-imagefile-via-globus)  
+-  [Globus Downloading Steps](#globus-downloading-steps)  
+   - [1. Create a Globus Connect Personal Account](#1-create-a-globus-connect-personal-account)  
+   - [2. Download the Globus Client](#2-download-the-globus-client)  
+   - [3. Open Globus File Manager](#3-open-globus-file-manager)  
+   - [4. Find Your Files](#4-find-your-files)  
+   - [5. Search for WCS Endpoint](#5-search-for-wcs-endpoint)  
+   - [6. Transfer the VM](#6-transfer-the-vm)  
+   - [7. Choose Local Endpoint](#7-choose-local-endpoint)  
+   - [8. Start the Download](#8-start-the-download)  
+   - [9. Wait for Completion](#9-wait-for-completion)  
+   - [10. Build the Docker Image](#10-build-the-docker-image)  
+   - [11. Run the Container](#11-run-the-container)  
+-  [Additional Resources and Troubleshooting for Globus](#additional-resources-and-troubleshooting-for-globus)  
+
 - [Additional Resources](#additional-resources)
 
 ## Introduction
@@ -139,18 +154,92 @@ Before installing Docker, ensure your system meets the following requirements:
     ```
 ---
 
+## Downloading Docker Image/File via Globus
+
+Globus is a research-oriented file transfer tool that offers the advantage of resuming downloads from the same position in case of an internet connection failure, instead of starting over.
+
+- **Globus Website:** [https://www.globus.org](https://www.globus.org)
+
+## Globus Downloading Steps:
+
+### 1. Create a Globus Connect Personal Account:
+   - Visit [Globus Connect Personal](https://www.globus.org/globus-connect-personal) and select the download for your operating system (Mac or Windows). This will prompt you to create an account.
+   - Choose to use Globus ID to sign in. (picture below)
+   
+   ![Download VirtualBox](VM_guide_images/3_1.png)
+
+   - If you don’t have an ID yet, select "Need a Globus ID? Sign up."
+
+   ![Download VirtualBox](VM_guide_images/3_2.png)
+
+   - **IMPORTANT: Make sure to specify that it's for research or educational purposes and create your account. Remember your password for later steps.**
+
+   ![Download VirtualBox](VM_guide_images/3_3.png)
+
+ ### 2. Download the Globus Client:
+   - Download the Globus client onto your local machine (or where you intend to run the VM) and allow it to install.
+   - It will ask for a collection name; give it a name you'll remember, like "home_computer" or "local_mac." This name refers to the local folders on your computer where we will send the VM in a later step.
+
+### 3. Open Globus File Manager:
+   - Click on the small "g" icon on the taskbar and select "Web: Transfer Files."
+   - For Linux users: There may not be a shortcut. Start Globus Personal Connect via the command line and navigate to [https://app.globus.org/file-manager](https://app.globus.org/file-manager) to begin the file manager.
+
+### 4. Find Your Files:
+   - Your local endpoint is your computer. Click on "Collections" on the left.
+
+### 5. Search for WCS Endpoint:
+   - Search for the endpoint `wcs_data_transfers`.
+   - Click on the endpoint labeled `wcs_data_transfers` and select "Open in File Manager."
+
+   ![Download VirtualBox](VM_guide_images/3_4.png)
+
+### 6. Transfer the VM:
+   - Select the Docker file `CourseName_Year.dockerfile` with the checkbox, then click on "Transfer or sync to."
+   - In the opposite panel, click on the search box.
+
+      ![Download VirtualBox](VM_guide_images/3_5.png)
+
+### 7. Choose Local Endpoint:
+   - Click on "Your Collections" and select your local endpoint (the name will be what you gave it during the Globus Personal Connect installation).
+   - You can also browse to choose the specific directory or folder on your local machine where you want the dockerfile to be downloaded.
+
+      ![Download VirtualBox](VM_guide_images/3_6.png)
+
+### 8. Start the Download:
+   - Once you have chosen the local location, click on the "Start" button under the `wcs_data_transfers` section to download to your local endpoint.
+
+      ![Download VirtualBox](VM_guide_images/3_7.png)
+      ![Download VirtualBox](VM_guide_images/3_8.png)
+
+### 9. Wait for Completion:
+   - Wait for the download to complete. Globus will email you once it's done, and you can track the transfer in the "Activity" menu.
+
+### 10. Build the Docker Image
+     ```bash
+     docker build -t container_name .
+     ```
+### 11. Run the Container
+     ```bash
+     docker run --rm -it container_name /bin/bash
+     ```
+    
+**Note:** The course data is also uploaded on Globus and can be searched as `CourseName_Year.dockerfile`.
+
+## Additional Resources and Troubleshooting for Globus
+
+- **Globus Documentation:** [https://docs.globus.org/guides/](https://docs.globus.org/guides/)
+- **Stack Overflow:** [https://stackoverflow.com/](https://stackoverflow.com/) (Public Q&A platform for debugging)
+- **Bioinformatics (BioStars) Forum:** [https://www.biostars.org/t/Forum/](https://www.biostars.org/t/Forum/) (General Bioinformatics queries)
+
+---
+
 ### Additional Resources
 
 - **[Docker Official Documentation](https://docs.docker.com/)**: Comprehensive guide and reference for Docker installation, configuration, and usage.
-
 - **[Docker Hub](https://hub.docker.com/)**: A cloud-based registry service that allows you to link code repositories, build images, and test them.
-
 - **[Post-Installation Steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)**: Instructions on how to manage Docker as a non-root user, including adding users to the Docker group.
-
 - **[Docker Compose Documentation](https://docs.docker.com/compose/)**: A tool for defining and running multi-container Docker applications. Great for orchestrating multiple containers for a course.
-
 - **[Globus](https://www.globus.org/)**: Research-oriented file transfer service that can be used to share large datasets. 
-
 - **[VirtualBox Documentation](https://www.virtualbox.org/wiki/Documentation)**: Official documentation for using VirtualBox, useful for comparison or as an alternative.
 - **[Linux Command Cheat Sheet](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)**: A handy reference for common Linux commands, useful for working within Docker containers.
 - **[GitHub Documentation](https://docs.github.com/)**: A platform for hosting and collaborating on code, ideal for sharing course materials and Dockerfiles.
