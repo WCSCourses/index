@@ -170,8 +170,8 @@ The Virtual Machine (VM) is a large download that many users find challenging. T
    - Your local endpoint is your computer. Click on "Collections" on the left.
 
 4. **Search for WCS Endpoint:**
-   - Search for the endpoint `wcs_data_transfers`.
-   - Click on the endpoint labeled `wcs_data_transfers` and select "Open in File Manager."
+   - Search for the endpoint `wcs_data_transfers` or `wcs_data_transfers_backup`.
+   - Click on the endpoint labelled `wcs_data_transfers` or `wcs_data_transfers_backup` and select "Open in File Manager."
 
    ![Download VirtualBox](VM_guide_images/3_4.png)
 
